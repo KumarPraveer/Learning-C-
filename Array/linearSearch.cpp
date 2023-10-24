@@ -16,7 +16,6 @@ int main()
 {
     int arr[] = {1, 9, 8, 2, 3, 6, 4, 5};
     int length = sizeof(arr) / sizeof(int);
-    linearSearch(arr, length, 5) ? printf("Element found at index %d", linearSearch(arr, length, 5))
-                                 : printf("Element not Found!!");
+    linearSearch(arr, length, 5) ? printf("Element found at index %d", linearSearch(arr, length, 5))                   : printf("Element not Found!!");
     return 0;
 }
